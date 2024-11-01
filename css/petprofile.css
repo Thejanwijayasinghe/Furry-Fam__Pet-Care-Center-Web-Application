@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 4, 2023, 12:39:52 PM
+    Author     : hp
+*/
+
+.footer {
+
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.custom-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0cab07; /* Green background color */
+    color: #000; /* Black text color */
+    border: 2px solid #000; /* Black border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    margin: 0 10px; /* Equal spacing between buttons */
+}
+
+.custom-button:hover {
+    background-color: #04c256; /* Darker green on hover */
+    color: #fff; /* White text color on hover */
+    text-decoration: none;
+}
+
+.profile-sub-topic {
+    font-size: 27px;
+    color: #000;
+    letter-spacing: 1.6px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.portfolio-topic {
+    margin: 80px 0 40px;
+}
+
+.top-portfolio-mar {
+    margin: 0 -5px !important;
+}
+
+.portfolio-mar {
+    margin: -5px !important;
+}
+
+.portfolio-pad {
+    padding: 5px !important;
+}
+
+.img {
+    padding-top: 50%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1);
+    transition: .4s;
+}
+
+.img img:hover {
+    transform: scale(1.1)
+}
+
+.img-hover {
+    overflow: hidden;
+}
+
+.img-hover img {
+    transform: scale(1);
+    transition: .4s;
+}
+
+.img-hover img:hover {
+    transform: scale(1.1)
+}
+
+.add-photos-btn {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    border: 2px solid #000; /* Black border */;
+    padding: 10px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    background-color: #0cab07;
+    text-align: center;
+}
+
+.add-photos-btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #04c256;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container for Vaccine Boxes */
+.vaccination-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Individual Vaccine Box Styling */
+.vaccine-box {
+    width: calc(33.33% - 20px); /* Divide the container into 3 equal parts with spacing */
+    background-color: #4CAF50;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Header of Each Box */
+.vaccine-header {
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Footer of Each Box */
+.vaccine-footer {
+    background-color: #007bff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Vaccine Name Text */
+.vaccine-name {
+    font-weight: bold;
+}
+
+/* Content (Text) Under Each Box */
+.vaccine-content {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-name{
+    font-weight: bold;
+}
+
+
+/* Image Container Styling */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Image Styling (adjust width and height as needed) */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header-cell {
+    background-color: #83FD8B;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-cell {
+    background-color: lightskyblue;
+    color: black;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Existing CSS code */
+
+/* Add the following CSS for the delete button */
+.delete-button {
+    background-color: blue;
+    color: black;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #00000080;
+    color: #ffffff;
+}
+

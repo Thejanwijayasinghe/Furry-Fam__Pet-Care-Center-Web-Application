@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2023, 1:49:35 PM
+    Author     : Thamasha Devindi
+*/
+.title{
+        margin-top: 15px;       
+}
+
+.title h1{
+    color: #03750B;
+    font-family: serif;
+    font-weight:800;
+}
+
+.container-md{
+    background-color: #83FD8B;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}

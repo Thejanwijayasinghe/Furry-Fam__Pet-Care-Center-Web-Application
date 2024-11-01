@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 4, 2023, 1:26:35 PM
+    Author     : Shanuka
+*/
+
+/* styles.css */
+
+.categories {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.category {
+    text-align: center;
+    padding: 20px;
+    background-color: #04c256;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.sub-categories {
+    list-style: none;
+    padding: 0;
+}
+
+.sub-categories li {
+    font-size: 16px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.sub-categories li:hover {
+    text-decoration: underline;
+    color: #007BFF;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.container {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 30px;
+}
+
+.category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.product-container {
+    max-width: 80%; /* Adjust the maximum width of the product container */
+    margin: 0 auto; /* Center the product container horizontally */
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically adjust column width */
+    gap: 20px; /* Adjust the gap between products */
+}
+
+
+.product {
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center; /* Center align the product content */
+}
+
+.product img {
+    width: 50%;
+    height: 50%;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.add-to-cart,
+.buy-now {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.view-product{
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.view-product:hover{
+    background-color: #000B97;
+}
+
+.add-to-cart:hover,
+.buy-now:hover {
+    background-color: #0056b3;
+}
+
+

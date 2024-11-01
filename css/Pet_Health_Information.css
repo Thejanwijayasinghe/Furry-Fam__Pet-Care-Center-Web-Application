@@ -1,0 +1,257 @@
+
+
+/* Styling for the Search Bar Container */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2E8B57;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Heading styles */
+.pet {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: 15px;
+}
+
+.Health {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: green;
+}
+
+/* Container styles */
+.article-container,
+.box-container,
+.container {
+  margin-top: 30px;
+}
+
+/* Grid layout for articles, diets, exercise, vaccinations, etc. */
+.articles,
+.diets,
+.exercise,
+.vaccination,
+.Commonill,
+.preventive,
+.grooming {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Card styles for articles, diets, exercise, vaccinations, etc. */
+.article-card,
+.diets-card,
+.exercise-card,
+.vaccination-card,
+.Commonill-card,
+.preventive-card,
+.grooming-card,
+.video-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  background: #ccc;
+  padding: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-card img,
+.diets-card img,
+.exercise-card img,
+.vaccination-card img,
+.Commonill-card img,
+.preventive-card img,
+.grooming-card img,
+.video-card iframe {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+.article-card h3,.diets-card h3,.exercise-card h3,.vaccination-card h3,.Commonill-card h3,.preventive-card h3,.grooming-card h3,.video-card h3{
+  margin-top: 20px;
+}
+
+.article-card p,.diets-card p,.exercise-card p,.vaccination-card p,.Commonill-card p,.preventive-card p ,.grooming-card p,.video-card p {
+  margin-top: 20px;
+  
+ 
+}
+
+.article-card a ,.diets-card a,.exercise-card a,.vaccination-card a,.Commonill-card a,.preventive-card a,.grooming-card a{
+  display: inline-block;
+  margin-top: auto;
+  padding: 6px 3px;
+  background-color: #2E8B57;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Hover effect for article cards */
+.article-card:hover,
+.diets-card:hover,
+.exercise-card:hover,
+.vaccination-card:hover,
+.Commonill-card:hover,
+.preventive-card:hover,
+.grooming-card:hover,
+.video-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.article-card:hover img,
+.diets-card:hover img,
+.exercise-card:hover img,
+.vaccination-card:hover img,
+.Commonill-card:hover img,
+.preventive-card:hover img,
+.grooming-card:hover img,
+.video-card:hover iframe {
+  opacity: 0.8;
+}
+
+.article-card a,
+.diets-card a,
+.exercise-card a,
+.vaccination-card a,
+.Commonill-card a,
+.preventive-card a,
+.grooming-card a,
+.video-card a {
+  display: inline-block;
+  margin-top: auto;
+  padding: 6px 3px;
+  background-color: #2E8B57;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.article-card a:hover,
+.diets-card a:hover,
+.exercise-card a:hover,
+.vaccination-card a:hover,
+.Commonill-card a:hover,
+.preventive-card a:hover,
+.grooming-card a:hover,
+.video-card a:hover {
+  background-color: #228B22;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Article content styles */
+.article-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.article-content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #005900;
+  margin-bottom: 20px;
+}
+
+.article-content img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ccc;
+}
+
+.article-content p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Styling for links */
+.article-content a {
+  color: #2E8B57;
+  text-decoration: none;
+}
+
+.article-content a:hover {
+  text-decoration: underline;
+}
+
+/*Diets Articles/Instructions/Advice Card */
+
+.articles-instructions-advice {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color:  #00563B;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.container.mt-4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #00563B;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.Categories {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: black;
+  margin-top: 15px;
+  text-align: center;
+}

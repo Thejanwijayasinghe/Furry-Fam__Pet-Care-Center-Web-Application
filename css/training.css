@@ -1,0 +1,270 @@
+*{
+   
+   
+    color: #000;
+   
+}
+
+section{
+    width: 100%;
+    height: 110vh;
+    background: #171717;
+    margin-top: 15px;
+}
+
+
+
+
+.swiper {
+    width: 95%;
+    height: 85%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.swiper::selection{
+   user-select: none;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box-container,
+.container {
+    margin-top: 30px;
+}
+
+.article{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.article-card,
+.video-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+    background: #ccc;
+    padding: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.article-card img,
+.video-card iframe {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+
+.article-card h3,
+.video-card h3{
+    margin-top: 20px;
+}
+
+
+.article-card p,
+.video-card p {
+    margin-top: 20px;
+
+
+}
+
+.article-card a{
+    display: inline-block;
+    margin-top: auto;
+    padding: 6px 3px;
+    background-color: #2E8B57;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.article-card:hover,
+.video-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.article-card:hover img,
+.video-card:hover iframe {
+    opacity: 0.8;
+}
+
+.article-card a,
+.video-card a {
+    display: inline-block;
+    margin-top: auto;
+    padding: 6px 3px;
+    background-color: #2E8B57;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.article-card a:hover,
+.video-card a:hover {
+    background-color: #228B22;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.container mt-4{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color:#00563B;
+    margin-top: 15px;
+    text-align: center;
+}
+.h2{
+    font-size: 40px;
+}
+
+.Categories{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color:black;
+    margin-top: 15px;
+    text-align: Center;}
+
+/*--------------*/
+
+.second{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #fff;
+}
+
+.second .latest{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.second .latest h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.second .latest .box{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    margin-left: 30px;
+
+}
+
+.second .latest .box .card{
+    width: 310px;
+    height: 450px;
+    margin: 45px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.second .latest .box .card .details{
+    width: 250px;
+    height: 370px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 8px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.button1{
+ background:#006400;
+    color:#000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+   
+}
+
+.button1:hover {
+    background-color: #45A049;
+}
+
+/* Style the table */
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid #6ae69b; /* Green border for the entire table */
+  background-color: #6ae69b; /* Green background color for the entire table */
+  color: white; /* Text color for the table content */
+  font-family: Arial, sans-serif;
+}
+
+/* Style the table header */
+th {
+  background-color: #2E8B57; /* Dark green header background */
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style all rows (including headers) with green background */
+tr {
+  background-color: #6ae69b; /* Green background for all rows */
+}
+
+/* Style table cells */
+td {
+  padding: 8px;
+  border: 2px solid #6ae69b; /* Green border for all cells */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px; /* Reduce font size for smaller screens */
+  }
+
+  th,
+  td {
+    padding: 4px; /* Reduce cell padding for smaller screens */
+  }
+}
+
+
